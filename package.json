@@ -1,10 +1,10 @@
 {
-  "name": "decisive",
+  "name": "eisenhower-matrix",
   "version": "0.1.0",
-  "description": "The elegant, free Eisenhower Matrix app",
-  "author": "Paul Statezny",
+  "description": "Manage your life by using EisenHower Law",
+  "author": "Harshil Jani",
   "bugs": {
-    "url": "https://github.com/paulstatezny/decisive/issues"
+    "url": "https://github.com/Harshil-Jani/Eisenhower-Matrix/issues"
   },
   "scripts": {
     "build": "rm -rf ./build && webpack",
@@ -12,7 +12,7 @@
     "start": "rm -rf ./build && webpack && node dev-server",
     "publish": "./publish.sh"
   },
-  "homepage": "https://github.com/paulstatezny/decisive",
+  "homepage": "https://github.com/Harshil-Jani/Eisenhower-Matrix",
   "dependencies": {
     "css-loader": "^0.12.0",
     "file-loader": "^0.8.1",

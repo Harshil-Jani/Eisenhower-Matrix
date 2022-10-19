@@ -8,11 +8,7 @@ class Logo extends React.Component
     {
         return (
             <h1 className='logo'>
-                <div className='logo__block logo__block--top-left'></div>
-                <div className='logo__block logo__block--bottom-left'></div>
-                <span>Decisive</span>
-                <div className='logo__block logo__block--top-right'></div>
-                <div className='logo__block logo__block--bottom-right'></div>
+                <span>Harshil's EisenHower</span>
             </h1>
         );
     }

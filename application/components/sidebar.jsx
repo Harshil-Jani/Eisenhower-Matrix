@@ -24,7 +24,6 @@ class Sidebar extends React.Component
     addGrid()
     {
         var gridName = prompt('Enter the name of the grid');
-
         if (!! gridName) {
             this.props.flux.actions.addGrid(gridName);
         }
@@ -72,10 +71,10 @@ class Sidebar extends React.Component
             <nav className='sidebar'>
                 <Logo />
                 <div>
-                    <h3>Grids</h3>
+                    <h3>Matrices</h3>
                     <ul>
                         {this.renderGrids()}
-                        <li onClick={this.addGrid}>Add Grid</li>
+                        <li onClick={this.addGrid} className='add_matrix'>Add Matrix</li>
                     </ul>
                 </div>
             </nav>

@@ -235,3 +235,7 @@ html, body, .container {
  font-style: italic;
  color: #d0cdfa;
  }
+
+.add_matrix{
+    border: 0.5px solid black;
+}

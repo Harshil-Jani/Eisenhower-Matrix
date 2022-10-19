@@ -38,7 +38,7 @@ class Grid extends React.Component
             <div className='grid'>
                 <Quadrant
                     className       = 'grid__quadrant--do'
-                    hint            = 'Do these things now.'
+                    hint            = 'Always focus on clearing this list out.'
                     tasks           = {this.props.tasks.do}
                     addTask         = {_.partial(this.addTask, 'do')}
                     removeTask      = {_.partial(this.removeTask, 'do')}
@@ -46,7 +46,7 @@ class Grid extends React.Component
                 />
                 <Quadrant
                     className       = 'grid__quadrant--plan'
-                    hint            = 'Plan a time to do these later.'
+                    hint            = 'This should be on the head. It cannot be left unnoticed.'
                     tasks           = {this.props.tasks.plan}
                     addTask         = {_.partial(this.addTask, 'plan')}
                     removeTask      = {_.partial(this.removeTask, 'plan')}
@@ -54,7 +54,7 @@ class Grid extends React.Component
                 />
                 <Quadrant
                     className       = 'grid__quadrant--delegate'
-                    hint            = 'Is someone else available to do these?'
+                    hint            = 'Adds value to life. List cannot be untouched for a long time.'
                     tasks           = {this.props.tasks.delegate}
                     addTask         = {_.partial(this.addTask, 'delegate')}
                     removeTask      = {_.partial(this.removeTask, 'delegate')}
@@ -62,7 +62,7 @@ class Grid extends React.Component
                 />
                 <Quadrant
                     className       = 'grid__quadrant--later'
-                    hint            = 'Save these tasks for your free time.'
+                    hint            = 'When I am doing nothing, I should do this.'
                     tasks           = {this.props.tasks.delay}
                     addTask         = {_.partial(this.addTask, 'delay')}
                     removeTask      = {_.partial(this.removeTask, 'delay')}
